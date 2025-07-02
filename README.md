@@ -124,7 +124,8 @@ exec(byte_new)
 ```
  - Kết quả demo output:
  ```
- def main(key):pass
+ def main(key):
+    return 'Key True'
  ```
 ---
 [x] API SẼ CẬP NHẬT LIÊN TỤC NÊN AE SỬ DỤNG CÓ LỖI GÌ HÃY LIÊN HỆ (TELE_ADMIN: @Minh_Nguyen_2412) !!
