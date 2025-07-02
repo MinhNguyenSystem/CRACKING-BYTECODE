@@ -109,9 +109,9 @@ def main(key):
 data = [
     # ------ VD --------
     # ----- cách 1 -----
-    [4, 4], # 2 là bắt đầu từ dòng thứ 2 và kết thúc là dòng 2
+    [4, 4], # bắt đầu từ dòng thứ 4 và kết thúc là dòng 4
     # ----- cách 2 -----
-    [4, 4, 2, 10], # 2 là bắt đầu từ dòng thứ 2 và kết thúc là dòng 2 | nhảy từ offset 2 đến 18
+    [4, 4, 2, 10], # bắt đầu từ dòng thứ 4 và kết thúc là dòng 4 | nhảy từ offset 2 đến 10
     # ------------------
 ]
 payload = {'bytes': enc , 'data':data}
