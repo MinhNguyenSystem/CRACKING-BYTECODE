@@ -187,7 +187,7 @@ pprint.pprint(resp.json())
 
 # ===================================== #
 # lưu chuỗi byte marshal mới vào file
-# open('output.py', 'w').write(f"exec(__import__('marshal').loads({byte_new}))")
+# open('output.py', 'w').write(f"exec(__import__('marshal').loads({base64.b64decode(resp.json()['bytes'])}))")
 # debug_byte(byte_new) # debug phân tách byte mới để xem sự khác biệt
 # exec(byte_new) # thực thi byte mới xem lỗi không
 # ===================================== #
