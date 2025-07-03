@@ -134,7 +134,7 @@ pprint.pprint(resp.json())
 #     f'{url}/crack_byte',
 #     json=payload
 # )
-# byte_new = marshal.loads(base64.b64decode(resp.json()['bytes'])) # or ['error]
+# byte_new = marshal.loads(base64.b64decode(resp.json()['bytes'])) # or ['error']
 # ===================================== #
 # exit()
 
@@ -167,7 +167,7 @@ pprint.pprint(resp.json())
 #     f'{url}/remove_byte',
 #     json=payload
 # )
-# byte_new = marshal.loads(base64.b64decode(resp.json()['bytes'])) # or ['error]
+# byte_new = marshal.loads(base64.b64decode(resp.json()['bytes'])) # or ['error']
 # ===================================== #
 # exit()
 
